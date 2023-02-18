@@ -12,12 +12,16 @@ int main(void)
 {
 	int i;
 
-	putchar(48);
-	for (i = 1; i <= 9; i++)
+	for (i = 0; i <= 9; i++)
 	{
-		putchar(44);
-		putchar(32);
 		putchar((48 + i));
+		if (i < 9)
+		{
+			putchar(44);
+			putchar(32);
+
+		}
 	}
+	putchar(10);
 	return (0);
 }
