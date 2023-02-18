@@ -10,8 +10,6 @@
  */
 int main(void)
 {
-	char ch;
-
 	for (int i = 0; i <= 25; i++)
 	{
 		putchar((97 + i));
