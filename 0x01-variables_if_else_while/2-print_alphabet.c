@@ -10,7 +10,9 @@
  */
 int main(void)
 {
-	for (int i = 0; i <= 25; i++)
+	int i;
+
+	for (i = 0; i <= 25; i++)
 	{
 		putchar((97 + i));
 	}
