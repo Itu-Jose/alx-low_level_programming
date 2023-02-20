@@ -16,7 +16,7 @@ int main(void)
 	{
 		for (j = 1; j <= 99; j++)
 		{
-			if (i != j)
+			if (i < j)
 			{
 				printf("%02d %02d", i, j);
 				if (i != 98 || j != 99)
