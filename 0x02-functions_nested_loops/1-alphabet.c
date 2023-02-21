@@ -4,7 +4,7 @@
 /**
  *main - entry point
  *
- *Description: print the alphabe in lowercase 
+ *Description: print the alphabe in lowercase
  *
  *Return: 0 (success - when _putchar printed)
  */
