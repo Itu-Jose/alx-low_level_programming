@@ -3,8 +3,10 @@
 
 int _putchar(char);
 
-char *_strcat(char *, char *);
-
 int str_len(char *);
 
+char *_strcat(char *, char *);
+
+
 #endif
+
