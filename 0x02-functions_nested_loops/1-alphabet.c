@@ -2,21 +2,6 @@
 #include "main.h"
 
 /**
- *main - entry point
- *
- *Description: print the alphabe in lowercase
- *
- *Return: 0 (success - when _putchar printed)
- */
-
-int main(void)
-{
-	print_alphabet();
-
-	return (0);
-}
-
-/**
  * print_alphabet - print out the alphabet in lower case
  *
  * Return: no return value.
