@@ -11,7 +11,7 @@ int _isalpha(int c)
 
 	int isalpha = 0;
 
-	if ( (65 <= c &&  90 >= c) || (97 <= c && 122 >= c))
+	if ((65 <= c &&  90 >= c) || (97 <= c && 122 >= c))
 		isalpha = 1;
 
 	return (isalpha);
