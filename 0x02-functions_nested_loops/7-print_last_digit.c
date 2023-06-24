@@ -14,15 +14,10 @@ int print_last_digit(int n)
 	char mod_ch;
 
 	if (n == INT_MIN)
-	{
-		modulus = abs(n + 1) % 10;
-		mod_ch = 48 + modulus + 1;
-	}
+		modulus = abs(n + 1) % 10 + 1;
 	else
-	{
 		modulus = abs(n) % 10;
-		mod_ch = 48 + modulus;
-	}
+	mod_ch = 48 + modulus;
 	_putchar(mod_ch);
 
 	return (modulus);
