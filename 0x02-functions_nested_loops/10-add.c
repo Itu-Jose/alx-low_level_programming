@@ -6,8 +6,8 @@
 
 /**
  * add - add two integers
- * @n - first number to add
- * @m - second number to add
+ * @n: first number to add
+ * @m: second number to add
  * Return: sum of n and m (success).
  */
 
