@@ -21,5 +21,7 @@ void rev_string(char *);
 
 void puts2(char *);
 
+void puts_half(char *);
+
 #endif
 
