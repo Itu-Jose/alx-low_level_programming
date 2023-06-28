@@ -19,5 +19,7 @@ void print_rev(char *);
 
 void rev_string(char *);
 
+void puts2(char *);
+
 #endif
 
