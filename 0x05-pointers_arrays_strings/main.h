@@ -25,5 +25,7 @@ void puts_half(char *);
 
 void print_array(int *, int);
 
+char *_strcpy(char *dest, char *src);
+
 #endif
 
