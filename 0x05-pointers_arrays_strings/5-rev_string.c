@@ -25,10 +25,7 @@ void rev_string(char *s)
 	for (i = 1; i <= midp; i++)
 	{
 		c = *(str + i - 1);
-		printf("%c", c);
 		*(str + i - 1) = *(s - i);
-		printf("%c", *(str + i - 1));
 		*(s - i) = c;
-		printf("%c\n", *(s - i));
 	}
 }
