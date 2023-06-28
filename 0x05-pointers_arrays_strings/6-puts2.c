@@ -22,7 +22,8 @@ void puts2(char *str)
 
 	for (i = 0; i <= len; i += 2)
 	{
-		_putchar(*(s + i));
+		if (*(s + i) != '\0')
+			_putchar(*(s + i));
 	}
 	_putchar(10);
 }
