@@ -17,5 +17,7 @@ void _puts(char *);
 
 void print_rev(char *);
 
+void rev_string(char *);
+
 #endif
 
