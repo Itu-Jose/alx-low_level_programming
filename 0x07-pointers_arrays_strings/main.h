@@ -9,5 +9,7 @@ char *_strchr(char *, char);
 
 unsigned int _strspn(char *, char *);
 
+char *_strpbrk(char *, char *);
+
 #endif
 
