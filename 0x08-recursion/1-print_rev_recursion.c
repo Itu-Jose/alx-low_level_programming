@@ -3,7 +3,7 @@
 #include <stdio.h>
 
 /**
- *	_puts_recursion - print string in reverse followed by newline
+ *	_print_rev_recursion - print string in reverse followed by newline
  * @s: input character string
  * Return: no return.
  */
