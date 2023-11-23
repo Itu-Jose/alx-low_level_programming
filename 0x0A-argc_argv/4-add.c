@@ -11,6 +11,7 @@
 int main(int argc, char *argv[])
 {
 	int i, b, res = 0;
+	char *p;
 
 	if (argc == 1)
 	{
@@ -19,8 +20,8 @@ int main(int argc, char *argv[])
 	}
 	for (i = 1; i < argc; i++)
 	{
-		b = atoi(argv[i]);
-		if (b == 0)
+		b = strtol(argv[i], &p, 10);
+		if (*p != '\0')
 		{
 			printf("Error\n");
 			return (1);
