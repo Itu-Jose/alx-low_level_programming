@@ -21,6 +21,25 @@ int palindrome(int n, int m, char *s1)
 	else
 		return (0);
 }
+
+/**
+* stringlen- returns length of string
+* @s1: input string
+* Return: length of string
+*/
+
+int stringlen(char *s1)
+{
+	if (*s1++ == '\0')
+	{
+		return (0);
+	}
+	else
+	{
+		return (1 + stringlen(s1));
+	}
+}
+
 /**
 * is_palindrome - checks if string is a palindrome
 * @s: input string
@@ -29,11 +48,13 @@ int palindrome(int n, int m, char *s1)
 
 int is_palindrome(char *s)
 {
-	int str_len = 0;
+	int str_len;
 
-	while (*s++ != '\0')
-		str_len++;
-	s = (s - 2);
-	return (palindrome(0, --str_len, s));
+	str_len = stringlen(s);
+	s += (str_len - 1);
+	if (*s == 1)
+		return (1);
+	else
+		return (palindrome(0, --str_len, s));
 }
 
